@@ -1,10 +1,41 @@
-.home{
-    background-image: url('https://elviajista.com/wp-content/uploads/2022/03/dondealojarseenlarivieramaya.jpg');
-    height: 100vh;
+.home {
+    border: none;
+    background-image: url('https://images8.alphacoders.com/525/525864.jpg');
+    height: 80vh;
     background-repeat: no-repeat;
     width: 100%;
-    justify-items: center;
-    justify-content: center;
-    align-items: center;
-    object-fit: cover;
+
+
+    display: flex;
 }
+h1, h2, h3{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: midnightblue;
+    font-size: 50px;
+  width: fit-content;
+  display: flex;
+  
+  justify-content: right;
+    font-weight: bold;
+    padding: 5px;
+  
+}
+.land{
+    
+    top: 0; 
+    right: 0; 
+     
+    justify-content: right;
+    position: absolute;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+ 
+    min-height: 100vh;
+    
+}
+
