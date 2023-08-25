@@ -28,7 +28,7 @@ h1, h2, h3{
     display: flex;
     flex-direction: column;
    
-    
+    bottom: 10px;
     position: relative;
     justify-content: flex-end;
     padding: 25px;
@@ -42,7 +42,7 @@ h1, h2, h3{
    
     top: -300px; 
     right: 100px; 
-    bottom: 0;
+    bottom: 10px;
     justify-content: right;
     position: absolute;
     background-color: white;
@@ -102,6 +102,9 @@ body {
 
 .card-img-top, .card{
     width: 700px!important;
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
 }
 
 
