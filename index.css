@@ -1,4 +1,5 @@
-.home {
+  .home {
+
    
     background-image: url('https://images8.alphacoders.com/525/525864.jpg');
     height: 89vh;
@@ -15,7 +16,7 @@ h1, h2, h3{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: midnightblue;
     font-size: 50px;
- 
+   
     display: flex;
   
     justify-content: right;
@@ -26,9 +27,8 @@ h1, h2, h3{
 .form-and-p{
     display: flex;
     flex-direction: column;
-    border: 2px solid;
-    box-sizing: border-box;
-    border-color: chartreuse;
+   
+    
     position: relative;
     justify-content: flex-end;
     padding: 25px;
@@ -39,13 +39,14 @@ h1, h2, h3{
     padding: 25px;
     width: 25%;
     height: 700px;
-    border: 2px solid black;
+   
     top: -300px; 
     right: 100px; 
     bottom: 0;
     justify-content: right;
     position: absolute;
     background-color: white;
+    box-shadow: 10px 10px 10px rgba(0.2, 0.2, 0, 0.2);
 }
 input{
     padding: 5px;
@@ -90,3 +91,59 @@ body {
     
 }
 
+.description{
+    font-size: xx-large;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: midnightblue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card-img-top, .card{
+    width: 700px!important;
+}
+
+
+/* index.css */
+
+/* Media query para dispositivos pequeños */
+@media screen and (max-width: 768px) {
+    .form {
+        width: 75%;
+        padding: 20px;
+        max-width: none;
+        top: 0;
+        right: 0;
+        bottom: auto;
+        position: static;
+        border: none;
+        border-radius: 0;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .form, .form-and-p {
+        width: 75%;
+        padding: 20px;
+        max-width: none;
+        top: 0;
+        right: 0;
+        bottom: auto;
+        position: static;
+        border: none;
+        border-radius: 0;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .form, .form-and-p {
+        width: 75%;
+        padding: 20px;
+        max-width: none;
+        top: 0;
+        right: 0;
+        bottom: auto;
+        position: static;
+        border: none;
+        border-radius: 0;
+    }
+}
