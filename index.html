@@ -54,16 +54,22 @@
     <br />
     <br />
     <div
-      class="row row-cols-1 row-cols-md-2 g-xxl-5"
-
+      class="row row-cols-2 row-cols-md-2 gy-xxl-4"
       style="
-        height: max-content;
-        width: fit-content;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 100px;
-        @media screen  and (max-width:768px){
+       width: 99vw;
+        display: flex!important;
+        justify-content: center!important;
+        align-items: center!important;
+        flex-wrap: wrap;
+        padding: auto;
+        @media screen and (max-width: 768px) {
+          flex-direction: column!important;
+          flex-wrap: wrap!important;
+        }
+        @media screen and (max-width: 1024) {
+          flex-direction: column;
+        }
+        @media screen and (max-width: 320px) {
           flex-direction: column;
         }
       "
@@ -72,36 +78,36 @@
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">RIVIERA MAYA</h5>
-            <h6 class="card-subtitle">MÉXICO</h6>
-            <p class="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </p>
+          
           </div>
-          <img
-            src="https://www.conely.es/wp-content/uploads/2019/07/decoracion-habitacion-hotel.jpg"
-            class="card-img-top"
-            alt="..."
-          />
+          <h4 class="title">TRS YUCATAN HOTEL</h4>
+          <div class="card-1">
+            <div class="price">
+              <p class="price-1">U$D 2449</p>
+              <p class="des-1">Precio por persona en base doble</p>
+              <button class="button-1">Reservá</button>
+            </div>
+          </div>
         </div>
       </div>
       <div class="col">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">IMBASSAÍ</h5>
-            <h6 class="card-subtitle">BRASIL</h6>
-            <p class="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </p>
+         
           </div>
-          <img
-            src="https://t1.uc.ltmcdn.com/es/posts/1/9/2/guia_de_decoracion_para_habitaciones_de_hoteles_47291_orig.jpg"
-            class="card-img-top"
-            alt="..."
-          />
+          <h4 class="title">TRS YUCATAN HOTEL</h4>
+          <div class="card-1">
+            <div class="price">
+              <p class="price-1">U$D 2449</p>
+              <p class="des-1">Precio por persona en base doble</p>
+              <div>
+                
+              </div>
+              <button class="button-1">Reservá</button>
+            </div>
+          </div>
+          
         </div>
       </div>
     </div>
