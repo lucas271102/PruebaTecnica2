@@ -106,9 +106,9 @@ body {
 }
 
 .card-img-top, .card{
-    width: 700px !important;
-    display: flex !important;
-    justify-content: center !important;
+    width: 700px!important;
+    display: flex!important;
+    justify-content: center!important;
     align-items: center !important;
     border: none !important;
     height: 900px!important;
