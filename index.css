@@ -37,7 +37,7 @@ h1, h2, h3{
     display: flex;
     flex-direction: column;
     padding: 25px;
-    width: 25%;
+    width: 40%;
     height: 700px;
    
     top: -300px; 
@@ -114,19 +114,44 @@ body {
     height: 900px!important;
 }
 
+@media screen and (max-width:768px) {
+    .card, .card-img-top{
+        width: 250px !important;
+        height: 350px!important;
+    }
 
+    .card{
+        padding: 50px!important;
+    }
+}
 /* index.css */
 
 /* Media query para dispositivos pequeños */
+@media screen and (max-width: 320px) {
+     .form-and-p {
+        width: 100%;
+        padding: 20px;
+        
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+   .cap{
+    font-size: 25px;
+   }
+   .button{
+    width: 100%;
+   }
+}
 @media screen and (max-width: 768px) {
     .form {
-        width: 75%;
+        width: 100%;
         padding: 20px;
-        max-width: none;
+        
         top: 0;
         right: 0;
         bottom: auto;
-        position: static;
+    
         border: none;
         border-radius: 0;
     }
